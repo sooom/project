@@ -1,15 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <html lang="ko">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>WILSHIRE GLOBAL</title>
+<title>layout sample</title>
 <script src="resources/js/jquery-1.7.1.min.js"  type="text/javascript"></script>
 <script src="resources/js/jquery.easing.1.3.js"  type="text/javascript"></script>
 <link href="resources/css/common.css" rel="stylesheet">
 <style>
-.aside{background: url(resources/images/nav1_aside.jpg)no-repeat; background-size: contain}
+.aside{background: url(resources/images/nav2_03_aside.jpg)no-repeat; background-size: contain}
 </style>
 </head>
 <body>
@@ -59,11 +60,13 @@
 	  </div>
      <article>
        <div class="content">
-            <img src="resources/images/nav1_cont.jpg">
+            <img src="resources/images/vision_cont.png">
        </div>
      </article>
+   </div> 
+  <div class="footer">
      <footer></footer>
-   </div>  
+  </div>   
 </body>
 	<script>
 	$(document).ready(function() {
